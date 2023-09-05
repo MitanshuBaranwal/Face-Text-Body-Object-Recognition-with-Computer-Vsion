@@ -137,5 +137,5 @@ def object_detection(image_path, user_id):
     else:
         return 0,0
 #user_id  = 100
-#image_path = r"C:\Users\Desktop\bitbucket\unlimit2\unlimiteye\outputs\image_proctor\101_102\819929.jpg"
+#image_path = r"C:\Users\Desktop\bitbucket\outputs\image_proctor\101_102\819929.jpg"
 #print(object_detection(image_path,user_id))
