@@ -23,7 +23,7 @@ def face_identification(image_path, user_id):
         return("validation_image picture doesnt exist in folder")
     try:
         if __name__ == "__main__":
-            file_path = r"C:\Users\Desktop\bitbucket\unlimit2\unlimiteye\outputs\captures\face\{}.jpg".format(user_id)
+            file_path = r"C:\Users\Desktop\bitbucket\outputs\captures\face\{}.jpg".format(user_id)
             #print(file_path)
             original_image = fr.load_image_file(file_path)
         else:
@@ -60,5 +60,5 @@ def face_identification(image_path, user_id):
 
 if __name__ == "__main__":
     user_id  = 100
-    image_path = r"C:\Users\Desktop\bitbucket\unlimit2\unlimiteye\outputs\image_proctor\100_125\89587.jpg"
+    image_path = r"C:\Users\Desktop\outputs\image_proctor\100_125\89587.jpg"
     print(face_identification(image_path,user_id))
