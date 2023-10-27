@@ -85,8 +85,8 @@ def object_detection(image_path, user_id):
                 if label == "book":
                     book_count = book_count + 1
 
-    #print("cell_phone_count: ", cell_phone_count)
-    #print("book_count: ", book_count)
+    print("cell_phone_count: ", cell_phone_count)
+    print("book_count: ", book_count)
 
     if book_count > 0 and cell_phone_count > 0:
         return 1,1
