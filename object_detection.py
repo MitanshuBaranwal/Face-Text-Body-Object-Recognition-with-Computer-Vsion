@@ -81,49 +81,9 @@ def object_detection(image_path, user_id):
                 current_time = strftime("%H:%M:%S %d/%m/%Y")
                 if label == "cell phone":
                     cell_phone_count = cell_phone_count + 1
-                    #cell_phone = [current_time]
-                    #cell_phone_final.append(cell_phone)
 
-                    # saving the snapshots
-                    #dirname = os.path.join("outputs", "events", "cell_phone", "{}".format(user_id))
-                    # print(dirname)
-                    # try:
-                    #     os.mkdir(dirname)
-                    #     #print("new folder for user created")
-                    # except:
-                    #     # folder already exists no folder creation needed
-                    #     pass
-                    #folder_time = strftime("%Y%m%d%H%M%S")
-                    # print(folder_time)
-                    #file = os.path.join(dirname, '{}{}.jpg'.format(user_id, folder_time))
-                    # print(file)
-                    #cv2.imwrite(file, frame)
-                    # print("capturedimage saved")
-                    #print("ceell phone detectde")
                 if label == "book":
                     book_count = book_count + 1
-                    #book = [current_time]
-                    #book_final.append(book)
-
-                    # saving the snapshots
-                    #dirname = os.path.join("outputs", "events", "book", "{}".format(user_id))
-                    # print(dirname)
-                    # try:
-                    #     os.mkdir(dirname)
-                    #     #print("new folder for user created")
-                    # except:
-                    #     # folder already exists no folder creation needed
-                    #     pass
-
-                    #folder_time = strftime("%Y%m%d%H%M%S")
-                    # print(folder_time)
-                    #file = os.path.join(dirname, '{}{}.jpg'.format(user_id, folder_time))
-                    # print(file)
-                    #cv2.imwrite(file, frame)
-                    # print("capturedimage saved")
-
-        #cv2.imshow("object_detection", frame)
-        #cv2.waitKey(0)
 
     #print("cell_phone_count: ", cell_phone_count)
     #print("book_count: ", book_count)
